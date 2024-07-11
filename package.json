@@ -1,0 +1,20 @@
+{
+  "name": "express-hello-world",
+  "version": "1.0.0",
+  "description": "Express Hello World on Render",
+  "main": "app.js",
+  "repository": "https://github.com/render-examples/express-hello-world",
+  "author": "Render Developers",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env production"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pm2": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=14" 
+  }
+}
